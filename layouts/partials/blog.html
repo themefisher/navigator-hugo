@@ -1,0 +1,51 @@
+{{ if .Site.Params.blog.enable }}
+{{ "<!-- Blog Section Start -->" | safeHTML }}
+<section class="blog section" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Params.blog.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Params.blog.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
+                    {{ with .Site.Params.blog.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range first 3 .Data.Pages }}
+            {{ "<!-- single blog post -->" | safeHTML }}
+            <article class="col-12 col-md-4">
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img class="img-fluid shadow rounded" src="{{ .Params.image | absURL }}" alt="Generic placeholder image">
+                    </div>
+                    <div class="post-title">
+                        <h3 class="mt-0">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                    </div>
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>By</span>
+                                {{ .Params.author }}
+                            </li>
+                            <li class="list-inline-item">
+                                <span>at</span>
+                                <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <p>{{ .Summary }}</p>
+                    </div>
+                    <a class="btn btn-main" href="{{ .Permalink }}">Read more</a>
+                </div>
+            </article>
+            {{ "<!-- /single blog post -->" | safeHTML }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!-- Blog Section End -->" | safeHTML }}
+{{ end }}

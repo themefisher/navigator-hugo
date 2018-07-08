@@ -1,0 +1,20 @@
+{{ if .Site.Params.aboutSm.enable }}
+{{ "<!-- Start About Section -->" | safeHTML }}
+<section class="about-2 section bg-gray" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-5">
+                {{ with .Site.Params.aboutSm.title }}
+                    <h2>{{ . }}</h2>
+                {{ end }}
+            </div>
+            <div class="col-12 col-md-7">
+                {{ with .Site.Params.aboutSm.description }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- End About section -->" | safeHTML }}
+{{ end }}

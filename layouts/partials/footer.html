@@ -1,0 +1,76 @@
+{{ "<!-- Footer Start -->" | safeHTML }}
+<footer id="footer" class="bg-one">
+    <div class="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>About</h3>
+                    {{ with .Site.Params.footerDescription }}<p>{{ . }}</p>{{ end }}
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Our Services</h3>
+                    <ul>
+                        {{ range .Site.Menus.service }}
+                        <li>
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        {{ range .Site.Menus.quicklink }}
+                        <li>
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Subscribe Now</h3>
+                    <form class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <h5>Copyright 2018. All rights reserved.</h5>
+        <h6>Design and Developed by themefisher.com
+            <br>Get More
+            <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
+        </h6>
+    </div>
+</footer>
+{{ "<!-- end footer -->" | safeHTML }}
+
+
+{{ "<!-- Essential Scripts -->" | safeHTML }}
+
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ "plugins/jquery/dist/jquery.min.js" | absURL }}"></script>
+{{ "<!-- Bootstrap -->" | safeHTML }}
+<script src="{{ "plugins/bootstrap/dist/js/popper.min.js" | absURL }}"></script>
+<script src="{{ "plugins/bootstrap/dist/js/bootstrap.min.js" | absURL }}"></script>
+{{ "<!-- Parallax -->" | safeHTML }}
+<script src="{{ "plugins/parallax/jquery.parallax-1.1.3.js" | absURL }}"></script>
+{{ "<!-- lightbox -->" | safeHTML }}
+<script src="{{ "plugins/lightbox2/dist/js/lightbox.min.js" | absURL }}"></script>
+{{ "<!-- Slick Carousel -->" | safeHTML }}
+<script src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL }}"></script>
+{{ "<!-- Portfolio Filtering -->" | safeHTML }}
+<script src="{{ "plugins/mixitup/dist/mixitup.min.js" | absURL }}"></script>
+{{ "<!-- Smooth Scroll js -->" | safeHTML }}
+<script src="{{ "plugins/smooth-scroll/dist/js/smooth-scroll.min.js" | absURL }}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+{{ "<!-- Custom js -->" | safeHTML }}
+<script src="{{ "js/script.js" | absURL }}"></script>
+
+</body>
+
+</html>

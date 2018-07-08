@@ -1,0 +1,70 @@
+{{ if .Site.Data.team.enable }}
+{{ "<!-- Team Section Start -->" | safeHTML }}
+<section class="team section bg-gray" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Data.team.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Data.team.title }}
+                        <h2>{{ . }}</h2>
+                        <span class="border"></span>
+                    {{ end }}
+                    {{ with .Site.Data.team.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            {{ range .Site.Data.team.member }}
+                {{ "<!-- team member -->" | safeHTML }}
+                <div class="col-12 col-md-3 col-sm-6">
+                    <div class="team-member text-center">
+                        <div class="member-photo">
+                            <img class="img-fluid" src="{{.image | absURL }}" alt="team people">
+                        </div>
+                        {{ "<!-- member name & designation -->" | safeHTML }}
+                        <div class="member-content">
+                            <h3>{{ .name }}</h3>
+                            <span>{{ .designation }}</span>
+                            <p>{{ .description }}</p>
+                            <ul class="list-inline">
+                                {{ with .facebookURL }}
+                                <li class="list-inline-item">
+                                    <a href="{{.}}">
+                                        <i class="tf-ion-social-facebook"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                                {{ with .twitterURL }}
+                                <li class="list-inline-item">
+                                    <a href="{{.}}">
+                                        <i class="tf-ion-social-twitter"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                                {{ with .gplusURL }}
+                                <li class="list-inline-item">
+                                    <a href="{{.}}">
+                                        <i class="tf-ion-social-google-outline"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                                {{ with .dribbbleURL }}
+                                <li class="list-inline-item">
+                                    <a href="{{.}}">
+                                        <i class="tf-ion-social-dribbble"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {{ "<!-- end team member -->" | safeHTML }}
+            {{ end }}
+
+        </div>
+    </div>
+</section>
+{{ "<!-- End section -->" | safeHTML }}
+{{ end }}

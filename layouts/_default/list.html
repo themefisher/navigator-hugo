@@ -1,0 +1,54 @@
+{{ partial "header.html" . }}
+
+{{ partial "preloader.html" . }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "page-title.html" . }}
+
+{{ "<!-- Blog Section Start -->" | safeHTML }}
+<section class="blog section" id="blog">
+    <div class="container">
+        <div class="row">
+            {{ range (.Paginator 6).Pages }}
+            {{ "<!-- single blog post -->" | safeHTML }}
+            <article class="col-12 col-md-4">
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img class="img-fluid shadow rounded" src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" alt="Generic placeholder image">
+                    </div>
+                    <div class="post-title">
+                        <h3 class="mt-0">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                    </div>
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>By</span>
+                                {{ .Params.author }}
+                            </li>
+                            <li class="list-inline-item">
+                                <span>at</span>
+                                <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <p>{{ .Summary }}</p>
+                    </div>
+                    <a class="btn btn-main" href="{{ .Permalink }}">Read more</a>
+                </div>
+            </article>
+            {{ "<!-- /single blog post -->" | safeHTML }}
+            {{ end }}
+            <div class="col-12 text-center">
+                {{ template "_internal/pagination.html" . }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Blog Section End -->" | safeHTML }}
+
+{{ partial "footer.html" . }}
+

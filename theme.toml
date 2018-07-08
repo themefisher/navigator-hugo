@@ -1,0 +1,12 @@
+name = "Navigator Hugo"
+license = "CC BY 3.0"
+licenselink = "https://creativecommons.org/licenses/by/3.0/"
+description = "Hugo port of the Themefisher’s Navigator Template"
+homepage = "http://demo.themefisher.com/themefisher/navigator/"
+tags = ['landing-page', 'business', 'agency-template', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap']
+features = ['bootstrap4','responsive']
+min_version = "0.41"
+
+[author]
+  name = "Themefisher"
+  homepage = "https://themefisher.com/"

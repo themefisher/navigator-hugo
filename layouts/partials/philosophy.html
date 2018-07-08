@@ -1,0 +1,48 @@
+{{ if .Site.Data.philosophy.enable }}
+{{ "<!-- Philosophy Section Start -->" | safeHTML }}
+<section class="about-mission-vision section">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title">
+                    {{ with .Site.Data.philosophy.topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .Site.Data.philosophy.title }}
+                    <h2>{{ . }}</h2>
+                    <span class="border"></span>
+                    {{ end }}
+                    {{ with .Site.Data.philosophy.subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="commonTab">
+                    <ul class="nav nav-tabs justify-content-center" id="myTab">
+                        {{ range $index, $element := .Site.Data.philosophy.tabItem }}
+                        <li class="nav-item">
+                            <a class="nav-link {{ if eq $index 0 }}active{{ end }}" id="{{ .id }}-tab" data-toggle="tab" href="#{{.id}}">{{ .title }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        {{ range $index, $element := .Site.Data.philosophy.tabItem }}
+                        <div class="tab-pane fade {{ if eq $index 0 }}show active{{ end }}" id="{{ .id }}">
+                            <div class="row">
+                                <div class="col-md-6 align-self-center">
+                                    {{ with .heading }}<h2>{{ . }}</h2>{{ end }}
+                                    {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid rounded shadow" src="{{ .image | absURL }}" alt="tab-image">
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Philosophy Section End -->" | safeHTML }}
+{{ end }}

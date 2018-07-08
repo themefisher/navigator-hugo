@@ -1,0 +1,45 @@
+{{ if .Site.Data.pricing.enable }}
+{{ "<!-- Start Pricing section -->" | safeHTML }}
+<section class="pricing-table section" id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .Site.Data.pricing.topTitle }}<h4>{{.}}</h4>{{ end }}
+                    {{ with .Site.Data.pricing.title }}
+                    <h2>{{.}}</h2>
+                    <span class="border"></span>
+                    {{ end }}
+                    {{ with .Site.Data.pricing.subtitle }}<p>{{.}}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            {{ range .Site.Data.pricing.item }}
+            {{ "<!-- single pricing table -->" | safeHTML }}
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="pricing-item">
+                    {{ "<!-- plan name & value -->" | safeHTML }}
+                    <div class="price-title bg-pricing">
+                        {{ with .name }}<h3>{{.}}</h3>{{ end }}
+                        {{ with .price }}<strong class="value">{{.}}</strong>{{ end }}
+                        {{ with .description }}<p>{{.}}</p>{{ end }}
+                    </div>
+                    {{ "<!-- plan description -->" | safeHTML }}
+                    <ul>
+                        {{ range .featurelist }}
+                        <li>{{.item}}</li>
+                        {{ end }}
+                    </ul>
+                    {{ "<!-- signup button -->" | safeHTML }}
+                    <a class="btn btn-main" href="{{.btnURL}}">{{.btnText}}</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <!-- End row -->
+    </div>
+    <!-- End container -->
+</section>
+{{ "<!-- End section -->" | safeHTML }}
+{{ end }}

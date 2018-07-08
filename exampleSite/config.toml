@@ -1,0 +1,119 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "navigator-hugo"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "About"
+        url     = "/about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Service"
+        url     = "/service"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Portfolio"
+        url     = "/portfolio"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Blog"
+        url     = "/blog"
+        weight  = 5
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "/contact"
+        weight  = 6
+    
+    # Footer Service Menu
+    [[menu.service]]
+        name    = "Graphic Design"
+        url     = "/service"
+        weight  = 1
+    [[menu.service]]
+        name    = "Web Design"
+        url     = "/service"
+        weight  = 2
+    [[menu.service]]
+        name    = "Web Development"
+        url     = "/service"
+        weight  = 3
+
+    # Footer Quick links Menu
+    [[menu.quicklink]]
+        name    = "Partners"
+        url     = "/about"
+        weight  = 1
+    [[menu.quicklink]]
+        name    = "About"
+        url     = "/about"
+        weight  = 2
+    [[menu.quicklink]]
+        name    = "FAQ's"
+        url     = "/about"
+        weight  = 3
+    [[menu.quicklink]]
+        name    = "Badges"
+        url     = "/about"
+        weight  = 4
+
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo.png"
+    dateFormat = "6 January 2006"
+    footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
+
+    # Hero Area Section
+    [params.hero]
+        enable  = true
+        heading = "We love to make brands grow"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+        button  = true
+        btnText = "Know More"
+        btnURL  = "https://themefisher.com/"
+        videoThumb = "images/slider/video-player-thumb.jpg"
+        videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+    # About 2 Section
+    [params.aboutSm]
+        enable  = true
+        title   = "We have explored the digital landscape with passion for a long time"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+
+    # Blog Section On Homepage
+    [params.blog]
+        enable  = true
+        topTitle= "OUR UNTOLD STORY"
+        title   = "Blog."
+        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+    # Call to Action Section on About Page
+    [params.cta]
+        enable  = true
+        bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+        title   = "Let's Create Something Together"
+        subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+        btnText = "Contact Us"
+
+    # Contact Section
+    [params.contact]
+        enable  = true
+        topTitle= "DROP US A NOTE"
+        title   = "Contact Us."
+        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+        address = "14/05, Stockhome <br> Victori Palace , United States"
+        phone   = "(03) 9283 2617"
+        fax     = "+61 3827 3590"
+        facebook= "https://www.facebook.com/"
+        twitter = "https://twitter.com/"
+        linkedin= "https://www.linkedin.com/"
+        dribbble= "https://dribbble.com/"
+        instagram= "https://www.instagram.com/"
+        mapLatitude = "51.507351"
+        mapLongitude= "-0.127758"
+        mapMarker   = "images/marker.png"
