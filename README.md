@@ -34,3 +34,5 @@ Visit us at https://themefisher.com/ to see other great-looking themes.
 
 [Hugo]: https://gohugo.io/
 [Themefisher]: https://themefisher.com/
+
+## We are available for Hiring of your next HUGO project. Drop Us a mail [themefisher@gmail.com](mailto:themefisher@gmail.com)
