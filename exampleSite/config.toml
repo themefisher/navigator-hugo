@@ -3,8 +3,6 @@ languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
 
-# TEST locally = hugo server --disableFastRender --ignoreCache --bind=192.168.10.101 --baseURL=http://192.168.10.101:1313
-
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
@@ -28,21 +26,13 @@ DefaultContentLanguage = "fr"
     [[Params.listeLangues]]
     code = "en"
 
-    # Call to Action Section on About Page
-    [params.cta]
-        enable  = true
-        bg      = "/images/call-to-action/call-to-action-bg-2.jpg"
-        title   = "Let's Create Something Together"
-        subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-        btnText = "Contact Us"
-
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
     ############ 1 - Site en FRANCAIS
     [Languages.fr]
     weight = 1
     languageCode = "fr-fr"
-    title = "Camping Arolla, Suisse - Le plus haut camping d'Europe, 1.950 m"
+    title = "FRANCAIS Example site multi-language"
     dateFormat = "2 January 2006"
 
     home = "FR Home"
@@ -109,7 +99,7 @@ DefaultContentLanguage = "fr"
     [Languages.en]
     weight = 2
     languageCode = "en-us"
-    title = "Camping Arolla, Swiss - Highest campsite in Europe, 1.950 m"
+    title = "ENGLISH Example site multi-language"
     dateFormat = "January 2, 2006"
 
     home = "EN Home"
