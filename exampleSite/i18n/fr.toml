@@ -1,0 +1,24 @@
+[about]
+other = "FR About"
+[service]
+other = "FR Service"
+[portfolio]
+other = "FR Portfolio"
+[blog]
+other = "FR Blog"
+[contact]
+other = "FR Contact"
+
+[graphicdesign]
+other = "FR Graphic Design"
+[webdesign]
+other = "FR Web Design"
+[webdevelopment]
+other = "FR Web Development"
+
+[partners]
+other = "FR Partners"
+[faqs]
+other = "FR FAQ's"
+[badges]
+other = "FR Badges"
