@@ -1,0 +1,42 @@
+{{ "<!-- Fixed Navigation -->" | safeHTML }}
+<!-- <section class="top-bar animated-header"> emprunt depuis timer theme -->
+{{ if .Site.Params.menufixed }}
+    <section class="header navigation top-bar animated-header">
+{{ else }}
+    <section class="header navigation">
+{{ end }}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+                        <img src="{{ with .Site.Params.logo }}{{ . | absURL }}{{ end }}" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="tf-ion-android-menu"></span>
+                    </button>
+        <!-- Icones & drapeaux de choix des langues -->
+        <div id="drapeaux">
+            <!-- Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
+            {{ range .Site.Params.listeLangues }}
+                {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
+            {{ end }}
+        </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
+                            </li>
+                            {{ range .Site.Menus.nav }}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>

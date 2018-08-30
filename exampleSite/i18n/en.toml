@@ -1,0 +1,24 @@
+[about]
+other = "EN About"
+[service]
+other = "EN Service"
+[portfolio]
+other = "EN Portfolio"
+[blog]
+other = "EN Blog"
+[contact]
+other = "EN Contact"
+
+[graphicdesign]
+other = "EN Graphic Design"
+[webdesign]
+other = "EN Web Design"
+[webdevelopment]
+other = "EN Web Development"
+
+[partners]
+other = "EN Partners"
+[faqs]
+other = "EN FAQ's"
+[badges]
+other = "EN Badges"

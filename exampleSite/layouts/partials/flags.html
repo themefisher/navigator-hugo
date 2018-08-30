@@ -1,0 +1,12 @@
+<!-- Menu de changement de langue -->
+{{ $icone_base_url := "images/logos/lang-" }}
+{{ $icone_end_url := ".gif" }}
+<!-- Utilise ".liste" et ".site" passés dans le scope du range pour obtenir .Site.Language-->
+{{ $icone_url := delimit (slice $icone_base_url .liste.code $icone_end_url) "" }}
+<!-- TODO : Faire un style adapté aux drapeaux/langue + highligh l'actuel -->
+{{ if eq (string .liste.code) (string .site.Language) }}
+    <a href="{{ .liste.code | absURL }}" class="selected"><img src= {{ $icone_url | absURL }} alt="IMAGE" />{{ .liste.code }}
+    {{ else }}
+    <a href="{{ .liste.code | absURL }}"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+{{ end }}
+</a>

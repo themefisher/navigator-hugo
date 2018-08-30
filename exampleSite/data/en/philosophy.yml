@@ -1,0 +1,25 @@
+enable    : true
+topTitle   : ENGLISH LITTLE MORE BRIEF
+title     : ENGLISH About Us.
+subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+tabItem   :
+  - id        : philosophy
+    title     : ENGLISH Our Philosophy
+    heading   : ENGLISH We Create Designs and technology
+    content   : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
+    image     : images/company/company-image.jpg
+
+  - id        : mission
+    title     : ENGLISH Mission
+    heading   : ENGLISH Our Mission
+    content   : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
+    image     : images/company/company-image-2.jpg
+
+  - id        : vision
+    title     : ENGLISH Vision
+    heading   : ENGLISH Our Vision
+    content   : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
+    image     : images/company/company-image-3.jpg
