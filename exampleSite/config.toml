@@ -1,4 +1,4 @@
-baseURL = "https://themes.gohugo.io/theme/navigator-hugo/"
+baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
