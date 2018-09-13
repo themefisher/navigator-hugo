@@ -36,7 +36,7 @@ DefaultContentLanguage = "en"
     dateFormat = "2 January 2006"
 
     home = "FR Home"
-    logo = "/images/logo.png"
+    logo = "images/logo.png"
     menufixed = false
 
     footerDescription = "FRANCAIS Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
@@ -53,7 +53,7 @@ DefaultContentLanguage = "en"
         button  = true
         btnText = "Know More"
         btnURL  = "https://themefisher.com/"
-        videoThumb = "/images/slider/video-player-thumb.jpg"
+        videoThumb = "images/slider/video-player-thumb.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
     # About 2 Section
@@ -85,12 +85,12 @@ DefaultContentLanguage = "en"
         instagram= "https://www.instagram.com/"
         mapLatitude = "51.507351"
         mapLongitude= "-0.127758"
-        mapMarker   = "/images/marker.png"
+        mapMarker   = "images/marker.png"
 
     # Call to Action Section on About Page
     [Languages.fr.params.cta]
         enable  = true
-        bg      = "/images/call-to-action/call-to-action-bg-2.jpg"
+        bg      = "images/call-to-action/call-to-action-bg-2.jpg"
         title   = "FRANCAIS Let's Create Something Together"
         subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
         btnText = "Nous contacter"
@@ -103,7 +103,7 @@ DefaultContentLanguage = "en"
     dateFormat = "January 2, 2006"
 
     home = "EN Home"
-    logo = "/images/logo.png"
+    logo = "images/logo.png"
     menufixed = false
 
     footerDescription = "ENGLISH Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
@@ -120,7 +120,7 @@ DefaultContentLanguage = "en"
         button  = true
         btnText = "Know More"
         btnURL  = "https://themefisher.com/"
-        videoThumb = "/images/slider/video-player-thumb.jpg"
+        videoThumb = "images/slider/video-player-thumb.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
     # About 2 Section
@@ -152,12 +152,12 @@ DefaultContentLanguage = "en"
         instagram= "https://www.instagram.com/"
         mapLatitude = "51.507351"
         mapLongitude= "-0.127758"
-        mapMarker   = "/images/marker.png"
+        mapMarker   = "images/marker.png"
 
     # Call to Action Section on About Page
     [Languages.en.params.cta]
         enable  = true
-        bg      = "/images/call-to-action/call-to-action-bg-2.jpg"
+        bg      = "images/call-to-action/call-to-action-bg-2.jpg"
         title   = "ENGLISH Let's Create Something Together"
         subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
         btnText = "Contact Us"
@@ -169,53 +169,53 @@ DefaultContentLanguage = "en"
     # Navbar Menus
     [[menu.nav]]
         name    = "about"
-        url     = "/about"
+        url     = "about"
         weight  = 2
     [[menu.nav]]
         name    = "service"
-        url     = "/service"
+        url     = "service"
         weight  = 3
     [[menu.nav]]
         name    = "portfolio"
-        url     = "/portfolio"
+        url     = "portfolio"
         weight  = 4
     [[menu.nav]]
         name    = "blog"
-        url     = "/blog"
+        url     = "blog"
         weight  = 5
     [[menu.nav]]
         name    = "contact"
-        url     = "/contact"
+        url     = "contact"
         weight  = 6
 
     # Footer Service Menu
     [[menu.service]]
         name    = "graphicdesign"
-        url     = "/service"
+        url     = "service"
         weight  = 1
     [[menu.service]]
         name    = "webdesign"
-        url     = "/service"
+        url     = "service"
         weight  = 2
     [[menu.service]]
         name    = "webdevelopment"
-        url     = "/service"
+        url     = "service"
         weight  = 3
 
     # Footer Quick links Menu
     [[menu.quicklink]]
         name    = "partners"
-        url     = "/about"
+        url     = "about"
         weight  = 1
     [[menu.quicklink]]
         name    = "about"
-        url     = "/about"
+        url     = "about"
         weight  = 2
     [[menu.quicklink]]
         name    = "faqs"
-        url     = "/about"
+        url     = "about"
         weight  = 3
     [[menu.quicklink]]
         name    = "badges"
-        url     = "/about"
+        url     = "about"
         weight  = 4
