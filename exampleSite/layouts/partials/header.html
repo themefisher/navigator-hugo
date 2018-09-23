@@ -32,7 +32,7 @@
 {{ $style_original := resources.Get "css/style_original.css" }}
 {{ $style_site     := resources.Get "css/my_style.css" }}
 {{ $style := slice $style_original $style_site | resources.Concat "css/style.css" | minify }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 <!-- <link rel="stylesheet" href="{{ "css/style.css" | absURL }}"> -->
 
 </head>
