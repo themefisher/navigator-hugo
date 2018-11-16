@@ -1,4 +1,4 @@
-# Meet Biztrx - Brand New business/corporate theme from themefisher team
+## Biztrox - Business theme (Premium)
 [![Biztrox hugo theme](https://user-images.githubusercontent.com/5304905/48638129-e8ffb200-e9f9-11e8-99a7-b081e27a1941.png)](https://themefisher.com/products/biztrox-hugo-template/)
 
 [Live Preview](http://demo.themefisher.com/themefisher/biztrox-hugo/)
