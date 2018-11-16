@@ -1,4 +1,10 @@
-# _Navigator_ for Hugo
+##Meet Biztrx - Brand New business/corporate theme from themefisher team
+![biztrox-banner](https://user-images.githubusercontent.com/5304905/48638129-e8ffb200-e9f9-11e8-99a7-b081e27a1941.png)
+[Live Preview](http://demo.themefisher.com/themefisher/biztrox-hugo/)
+[Download Now](https://themefisher.com/products/biztrox-hugo-template/)
+
+
+# _Navigator_ for Hugo 
 ![screenshot](https://user-images.githubusercontent.com/16266381/42418860-3b5ae592-82cb-11e8-8c88-8936ecb9a224.jpg "Home of the website")
 
 Navigator is a responsive, modern and clean free multipurpose template powered by Bootstrap4. Built with refined business as well as corporate elements, and saturated with rich typography, Navigator is lightweight, fast-loading, responsive and W3C-validated, delivering a great first impression to visitors.
