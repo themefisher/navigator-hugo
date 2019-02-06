@@ -4,31 +4,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>About</h3>
+                    <h3>{{ .Site.Params.footerAboutTitle }}</h3>
                     {{ with .Site.Params.footerDescription }}<p>{{ . }}</p>{{ end }}
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Our Services</h3>
+                    <h3>{{ .Site.Params.footerServiceTitle }}</h3>
                     <ul>
                         {{ range .Site.Menus.service }}
                         <li>
-                            <a href="{{ .URL }}">{{ .Name }}</a>
+                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Quick Links</h3>
+                    <h3>{{ .Site.Params.footerQuicklinkTitle }}</h3>
                     <ul>
                         {{ range .Site.Menus.quicklink }}
                         <li>
-                            <a href="{{ .URL }}">{{ .Name }}</a>
+                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Subscribe Now</h3>
+                    <h3>{{ .Site.Params.footerSubscribeTitle }}</h3>
                     <form class="subscribe-form">
                         <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">

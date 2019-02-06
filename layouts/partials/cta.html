@@ -6,7 +6,7 @@
 			<div class="col-md-12 text-center">
 				{{ with .Site.Params.cta.title }}<h2>{{ . }}</h2>{{ end }}
                 {{ with .Site.Params.cta.subtitle }}<p>{{ . | safeHTML }}</p>{{ end }}
-				{{ with .Site.Params.cta.btnText }}<a href="{{ "/contact" | absURL }}" class="btn btn-main">{{ . }}</a>{{ end }}
+				{{ with .Site.Params.cta.btnText }}<a href="{{ "contact" | absURL }}" class="btn btn-main">{{ . }}</a>{{ end }}
 			</div>
 		</div>
 	</div>

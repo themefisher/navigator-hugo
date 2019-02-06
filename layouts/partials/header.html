@@ -5,7 +5,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="description" content="Navigator Hugo Template">
-<meta name="author" content="Themefisher.com"> 
+<meta name="author" content="Themefisher.com">
 {{ .Hugo.Generator }}
 
 <title>{{ .Site.Title }}</title>
@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {{ "<!-- Favicon -->" | safeHTML }}
-<link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.png" | absURL }}" />
+<link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}" />
 
 {{"<!-- Stylesheets -->" | safeHTML}}
 {{ "<!-- Themefisher Icon font -->" | safeHTML }}
@@ -27,7 +27,13 @@
 <link rel="stylesheet" href="{{ "plugins/slick-carousel/slick/slick.css" | absURL }}">
 <link rel="stylesheet" href="{{ "plugins/slick-carousel/slick/slick-theme.css" | absURL }}">
 {{ "<!-- Main Stylesheet -->" | safeHTML }}
-<link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+
+<!-- gestion de la personalisation de la css du theme -->
+{{ $style_original := resources.Get "css/style_original.css" }}
+{{ $style_site     := resources.Get "css/my_style.css" }}
+{{ $style := slice $style_original $style_site | resources.Concat "css/style.css" | minify }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<!-- <link rel="stylesheet" href="{{ "css/style.css" | absURL }}"> -->
 
 </head>
 
