@@ -1107,10 +1107,12 @@ a:focus, a:hover {
 
 .portfolio-block:hover .caption {
   opacity: 1;
+  visibility: visible;
 }
 
 .portfolio-block:hover .caption .search-icon {
   opacity: 1;
+  visibility: visible;
 }
 
 .portfolio-block .caption {
@@ -1120,6 +1122,7 @@ a:focus, a:hover {
   opacity: 0;
   z-index: 9;
   transition: all 0.3s ease-in-out;
+  visibility: hidden;
 }
 
 .portfolio-block .caption h4 {
@@ -1139,6 +1142,7 @@ a:focus, a:hover {
   font-size: 25px;
   border-radius: 30px;
   opacity: 0;
+  visibility: hidden;
 }
 
 /*=================================================================
