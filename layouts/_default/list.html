@@ -1,8 +1,4 @@
-{{ partial "header.html" . }}
-
-{{ partial "preloader.html" . }}
-
-{{ partial "navigation.html" . }}
+{{ define "main" }}
 
 {{ partial "page-title.html" . }}
 
@@ -50,5 +46,5 @@
 </section>
 {{ "<!-- Blog Section End -->" | safeHTML }}
 
-{{ partial "footer.html" . }}
+{{ end }}
 

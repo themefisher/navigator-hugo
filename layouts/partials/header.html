@@ -1,40 +1,42 @@
-<!DOCTYPE html>
-<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="description" content="Navigator Hugo Template">
-<meta name="author" content="Themefisher.com">
-{{ .Hugo.Generator }}
-
-<title>{{ .Site.Title }}</title>
-
-{{ "<!-- Mobile Specific Meta -->" | safeHTML }}
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-{{ "<!-- Favicon -->" | safeHTML }}
-<link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}" />
-
-{{"<!-- Stylesheets -->" | safeHTML}}
-{{ "<!-- Themefisher Icon font -->" | safeHTML }}
-<link rel="stylesheet" href="{{ "plugins/themefisher-font/style.css" | absURL }}">
-{{ "<!-- bootstrap.min css -->" | safeHTML}}
-<link rel="stylesheet" href="{{ "plugins/bootstrap/dist/css/bootstrap.min.css" | absURL }}">
-{{ "<!-- Lightbox.min css -->" | safeHTML }}
-<link rel="stylesheet" href="{{ "plugins/lightbox2/dist/css/lightbox.min.css" | absURL }}">
-{{ "<!-- Slick Carousel -->" | safeHTML }}
-<link rel="stylesheet" href="{{ "plugins/slick-carousel/slick/slick.css" | absURL }}">
-<link rel="stylesheet" href="{{ "plugins/slick-carousel/slick/slick-theme.css" | absURL }}">
-{{ "<!-- Main Stylesheet -->" | safeHTML }}
-
-<!-- gestion de la personalisation de la css du theme -->
-{{ $style_original := resources.Get "css/style_original.css" }}
-{{ $style_site     := resources.Get "css/my_style.css" }}
-{{ $style := slice $style_original $style_site | resources.Concat "css/style.css" | minify }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-<!-- <link rel="stylesheet" href="{{ "css/style.css" | absURL }}"> -->
-
-</head>
-
-<body id="body">
+{{ "<!-- Fixed Navigation -->" | safeHTML }}
+<!-- <section class="top-bar animated-header"> emprunt depuis timer theme -->
+{{ if .Site.Params.menufixed }}
+    <section class="header navigation top-bar animated-header">
+{{ else }}
+    <section class="header navigation">
+{{ end }}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+                        <img src="{{ with .Site.Params.logo }}{{ . | absURL }}{{ end }}" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="tf-ion-android-menu"></span>
+                    </button>
+                    <!-- Icones & drapeaux de choix des langues -->
+                    <div id="drapeaux">
+                        <!-- Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
+                        {{ range .Site.Params.listeLangues }}
+                            {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
+                        {{ end }}
+                    </div>
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
+                            </li>
+                            {{ range .Site.Menus.nav }}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,11 +1,11 @@
 enable  : true
 topTitle: TEAM MEMBER
-title   : ENGLISH Our Team.
+title   : Our Team.
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
 
 member  :
   - image         : images/team/member-1.jpg
-    name          : ENGLISH Shawshank Redemption
+    name          : Shawshank Redemption
     designation   : Head Of Marketing
     description   : >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.

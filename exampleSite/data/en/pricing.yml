@@ -1,10 +1,10 @@
 enable  : true
 topTitle: EASY PRICING
-title   : ENGLISH Pricing.
+title   : Pricing.
 subtitle : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
 
 item  :
-  - name        : ENGLISH BASIC
+  - name        : BASIC
     price       : $99
     description : Perfect for single freelancers who work by themselves
     featurelist :

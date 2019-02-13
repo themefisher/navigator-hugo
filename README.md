@@ -1,5 +1,5 @@
 # _Navigator_ for Hugo 
-![screenshot](https://user-images.githubusercontent.com/16266381/42418860-3b5ae592-82cb-11e8-8c88-8936ecb9a224.jpg "Home of the website")
+![screenshot](https://user-images.githubusercontent.com/37659754/52624575-3b594d80-2ed9-11e9-83eb-29876e74c420.jpg "Home of the website")
 
 Navigator is a responsive, modern and clean free multipurpose template powered by Bootstrap4. Built with refined business as well as corporate elements, and saturated with rich typography, Navigator is lightweight, fast-loading, responsive and W3C-validated, delivering a great first impression to visitors.
 

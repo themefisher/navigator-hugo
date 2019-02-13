@@ -1,29 +1,25 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-{{ partial "preloader.html" . }}
+  {{ partial "hero.html" . }}
 
-{{ partial "navigation.html" . }}
+  {{ partial "about-sm.html" . }}
 
-{{ partial "hero.html" . }}
+  {{ partial "feature.html" . }}
 
-{{ partial "about-sm.html" . }}
+  {{ partial "about.html" . }}
 
-{{ partial "feature.html" . }}
+  {{ partial "workingprocess.html" . }}
 
-{{ partial "about.html" . }}
+  {{ partial "portfolio.html" . }}
 
-{{ partial "workingprocess.html" . }}
+  {{ partial "team.html" . }}
 
-{{ partial "portfolio.html" . }}
+  {{ partial "pricing.html" . }}
 
-{{ partial "team.html" . }}
+  {{ partial "testimonial.html" . }}
 
-{{ partial "pricing.html" . }}
+  {{ partial "blog.html" . }}
 
-{{ partial "testimonial.html" . }}
+  {{ partial "contact.html" . }}
 
-{{ partial "blog.html" . }}
-
-{{ partial "contact.html" . }}
-
-{{ partial "footer.html" . }}
+{{ end }}

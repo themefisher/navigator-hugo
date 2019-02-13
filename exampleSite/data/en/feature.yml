@@ -1,7 +1,7 @@
 enable  : true
 item  :
   - icon  : tf-ion-ios-copy-outline
-    title : ENGLISH WordPress Theme
+    title : WordPress Theme
     description : >
       Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.
 
