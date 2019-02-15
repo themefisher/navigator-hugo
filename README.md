@@ -19,6 +19,10 @@ Navigator based on Bootstrap 4 and offers Amazing design layout.
 This Template is released under [Creative Commons Attribution 3.0 (CC-BY-3.0) License](https://creativecommons.org/licenses/by/3.0/)
 If you want to remove the credit simply make a [donation](https://www.paypal.me/Themefisher), so that we can run our contribution to hugo community.
 
+## Useful Links
+
+[Installation](https://gohugo.io/getting-started/installing/) | [More Hugo Themes By Themefisher](https://themefisher.com/hugo-themes/)  
+
 ## Hire Us
 We are available for Hiring of your next HUGO project.
 
