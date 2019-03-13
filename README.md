@@ -29,7 +29,7 @@ Navigator based on Bootstrap 4 and offers Amazing design layout.
 
 | About  | Service  | Portfolio  | Contact  |
 |---|---|---|---|
-| ![About page](https://user-images.githubusercontent.com/37659754/54080077-a0eefd00-4312-11e9-91d7-5d77982885f1.png)  | ![Service page](https://user-images.githubusercontent.com/37659754/54080080-a1879380-4312-11e9-9f2e-f06114e6de57.png) | ![Portfolio page]((https://user-images.githubusercontent.com/37659754/54080079-a0eefd00-4312-11e9-8306-3982f4288279.png) | ![Contact page](https://user-images.githubusercontent.com/37659754/54080078-a0eefd00-4312-11e9-9083-fa8a9ac64122.png)
+| ![About page](https://user-images.githubusercontent.com/37659754/54080077-a0eefd00-4312-11e9-91d7-5d77982885f1.png)  | ![Service page](https://user-images.githubusercontent.com/37659754/54080080-a1879380-4312-11e9-9f2e-f06114e6de57.png) | ![Portfolio page](https://user-images.githubusercontent.com/37659754/54080079-a0eefd00-4312-11e9-8306-3982f4288279.png) | ![Contact page](https://user-images.githubusercontent.com/37659754/54080078-a0eefd00-4312-11e9-9083-fa8a9ac64122.png)
 
 [Live Demo](https://themes.gohugo.io/theme/navigator-hugo/).
 
