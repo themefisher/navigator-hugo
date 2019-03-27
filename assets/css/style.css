@@ -1067,7 +1067,7 @@ a:focus, a:hover {
   color: #000;
 }
 
-.portfolio-filter button.mixitup-control-active {
+.portfolio-filter button.active {
   border-bottom: 2px solid #f0326b;
   color: #000;
 }

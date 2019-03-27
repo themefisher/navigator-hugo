@@ -29,10 +29,12 @@
 	/*	Portfolio Filtering Hook
 	/* =========================================================================  */
 
-	var portfolio_item = $('.portfolio-items-wrapper');
-	if (portfolio_item.length) {
-		var mixer = mixitup(portfolio_item);
-	};
+	var filterizd = $('.filtr-container').filterizr({});
+	//Active changer
+	$('.filtr-control').on('click', function () {
+		$('.filtr-control').removeClass("active");
+		$(this).addClass("active");
+	});
 
 	
 	/* ========================================================================= */

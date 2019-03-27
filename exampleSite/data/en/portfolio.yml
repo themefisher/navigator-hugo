@@ -23,11 +23,11 @@ item   :
 
   - title : D Design
     image : images/portfolio/portfolio-2.jpg
-    category  : ios design
+    category  : ios, design
 
   - title : Xbox 360
     image : images/portfolio/portfolio-3.jpg
-    category  : photography development
+    category  : photography, development
 
   - title : Ballon Card
     image : images/portfolio/portfolio-4.jpg
