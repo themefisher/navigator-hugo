@@ -15,6 +15,8 @@ Navigator is a responsive, modern and clean free multipurpose template powered b
 
 Navigator based on Bootstrap 4 and offers Amazing design layout.
 
+**The images are only for demonstration purpose, Please don't use those images.**
+
 ## Table of Contents
 
 - [Demo](#demo)
