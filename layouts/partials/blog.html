@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="row">
-            {{ range first 3 .Data.Pages }}
+            {{ range first 3 .Site.RegularPages}}
             {{ "<!-- single blog post -->" | safeHTML }}
             <article class="col-12 col-md-4">
                 <div class="post-item">
