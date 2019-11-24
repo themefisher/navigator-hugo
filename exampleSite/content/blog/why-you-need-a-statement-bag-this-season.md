@@ -3,6 +3,7 @@ title: Why You Need a Statement Bag
 date: 2018-07-08T12:11:29+06:00
 image: images/blog/post-2.jpg
 author: Arya Stark
+description: "This is meta description"
 ---
 ### A cleansing hot shower or bath
 

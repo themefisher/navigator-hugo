@@ -26,6 +26,10 @@ DefaultContentLanguage = "en"
     code = "fr"
     [[Params.listeLangues]]
     code = "en"
+    
+    # meta data
+    author = "Themefisher"
+    description = "This is meta description"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]

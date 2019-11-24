@@ -3,6 +3,7 @@ title: Ten Things About Business
 date: 2018-07-07T16:57:54+06:00
 image: images/blog/post-1.jpg
 author: John Snow
+description: "This is meta description"
 ---
 
 ### Introduction
