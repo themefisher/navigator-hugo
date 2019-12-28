@@ -13,6 +13,13 @@
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}" />
 
+
+{{ "<!-- plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.css }}
+<link rel="stylesheet" href="{{ .URL | absURL }} ">
+{{ end }}
+
+
 {{"<!-- Stylesheets -->" | safeHTML}}
 {{ "<!-- Themefisher Icon font -->" | safeHTML }}
 <link rel="stylesheet" href="{{ "plugins/themefisher-font/style.css" | absURL }}">

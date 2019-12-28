@@ -65,10 +65,10 @@
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
-                    <h4>Call Us</h4>
+                    <h4>Contact Us</h4>
                     <p>
-                         {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
-                        <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
+                         {{ with .Site.Params.contact.email }}Email: <a href="mailto:{{ . }}">{{ . }} </a>{{ end }}
+                        <br> {{ with .Site.Params.contact.phone }} Phone: {{ . }} {{ end }}
                     </p>
                 </div>
             </div>

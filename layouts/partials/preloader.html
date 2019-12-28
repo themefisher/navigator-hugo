@@ -1,6 +1,8 @@
 {{ "<!-- Start Preloader -->" | safeHTML }}
 <div id="preloader">
     <div class="preloader">
+    <img src="{{ with .Site.Params.logopreload }}{{ . | absURL }}{{ end }}" alt="logo">
+      <!--
         <div class="sk-circle1 sk-child"></div>
         <div class="sk-circle2 sk-child"></div>
         <div class="sk-circle3 sk-child"></div>
@@ -13,6 +15,7 @@
         <div class="sk-circle10 sk-child"></div>
         <div class="sk-circle11 sk-child"></div>
         <div class="sk-circle12 sk-child"></div>
+      -->
     </div>
 </div>
 {{ "<!-- End Preloader -->" | safeHTML }}
