@@ -1904,3 +1904,10 @@ a:focus, a:hover {
   background: #fff;
   box-shadow: none;
 }
+
+/* Custom configuration */
+
+.col-services {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
