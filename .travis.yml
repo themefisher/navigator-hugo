@@ -1,0 +1,8 @@
+branches:
+only:
+  - master
+os:
+  - linux
+sudo: false
+script:
+  - "/bin/bash ./.ci/webhook.sh"
