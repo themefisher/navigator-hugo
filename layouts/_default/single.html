@@ -4,19 +4,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
+              <a href="..">< Back </a>
                 <img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="w-100 mb-3" alt="Post-Image">
                 <h2>{{ .Title }}</h2>
                 <div class="post-meta mb-5">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <span>By</span>
-                            {{ .Params.author }}
-                        </li>
-                        <li class="list-inline-item">
-                            <span>at</span>
-                            <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
-                        </li>
-                    </ul>
+                    <span>By</span>
+                    {{ .Params.author }}
+                    <span>at</span>
+                    <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
                 </div>
                 {{ .Content }}
             </div>

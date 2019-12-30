@@ -1619,6 +1619,14 @@ a:focus, a:hover {
   color: var(--color-primary-0);
 }
 
+.blog-single {
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+
+.blog-single li:before {
+  content: "•";
+}
 #blog-page {
   margin: 0 0 40px;
 }
