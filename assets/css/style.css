@@ -1911,3 +1911,8 @@ a:focus, a:hover {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.col-md-5 {
+  flex: 1 1 50%;
+  max-width: 100%;
+}
