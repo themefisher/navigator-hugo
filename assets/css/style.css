@@ -131,6 +131,12 @@ a:focus, a:hover {
 
 .mt-50 {
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mb-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .btn:focus {
@@ -933,15 +939,15 @@ a:focus, a:hover {
 
 .social-icon li a {
   display: block;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   text-align: center;
   color: var(--color-primary-0);
 }
 
 .social-icon li a i {
   display: inline-block;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 50px;
   margin: 0;
 }
@@ -1913,6 +1919,15 @@ a:focus, a:hover {
 }
 
 .col-md-5 {
-  flex: 1 1 50%;
+  flex: 1 1 40%;
   max-width: 100%;
+  margin: 40px;
+}
+
+.about-container {
+  max-width: 1600px;
+}
+
+.raw {
+  padding: 40px;
 }
