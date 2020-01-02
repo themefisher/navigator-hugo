@@ -130,13 +130,13 @@ a:focus, a:hover {
 }
 
 .mt-50 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .mb-50 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .btn:focus {
@@ -424,6 +424,18 @@ a:focus, a:hover {
 
 .gradient, .title .border, .service-2 .service-item i {
   background-image: linear-gradient(190deg, var(--color-secondary-1-4), var(--color-primary-1));
+}
+.border-about {
+/*  background-image: linear-gradient(190deg, var(--color-secondary-1-2), var(--color-secondary-2-2)); */
+  background-color: var(--color-primary-2);
+
+  display: inline-block;
+  border-radius: 3px;
+  height: 6px;
+  position: relative;
+  width: 90px;
+  right: 50%;
+  left: 50%;
 }
 
 .header-bradcrumb {
@@ -1476,7 +1488,7 @@ a:focus, a:hover {
 .member-photo .mask ul {
   text-align: center;
   position: relative;
-  top: 125px;
+  top: 45%
 }
 
 .member-photo .mask ul li a {
@@ -1930,4 +1942,18 @@ a:focus, a:hover {
 
 .raw {
   padding: 40px;
+}
+
+.col-team-member {
+  max-width: 350px; /* = max team member img size */
+  flex: 0 0 33%
+}
+
+.img-team-member {
+  max-width: 350px;
+}
+
+.img-about {
+  position: relative;
+  top: 50px;
 }

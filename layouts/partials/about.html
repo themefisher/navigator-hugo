@@ -6,6 +6,7 @@
       <div class="container about-container">
             {{ range .item }}
                 {{ if .positionRight }}
+                              <span class="border border-about"></span>
                     <div class="row mt-50 justify-content-center">
                         <div class="col-md-5 col-md-5 col-sm-12">
                             <div class="content">
@@ -16,13 +17,14 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-5 col-sm-12 text-center">
-                            <img src="{{ .image | absURL }}" class="img-fluid" alt="about-image">
+                            <img src="{{ .image | absURL }}" class="img-fluid img-about" alt="about-image">
                         </div>
                     </div>
                 {{ else }}
+                              <span class="border border-about"></span>
                     <div class="row mb-50 justify-content-center">
                         <div class="col-md-5 col-sm-12 text-center">
-                            <img src="{{ .image | absURL }}" class="img-fluid" alt="about-image">
+                            <img src="{{ .image | absURL }}" class="img-fluid img-about" alt="about-image">
                         </div>
                         <div class="col-md-5 col-sm-12">
                             <div class="content">
