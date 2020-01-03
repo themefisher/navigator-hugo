@@ -1,6 +1,7 @@
 {{ "<!-- Footer Start -->" | safeHTML }}
 <footer id="footer" class="bg-one">
 
+<!--
     <div class="top-footer">
         <div class="container">
             <div class="row">
@@ -13,17 +14,17 @@
                     <ul>
                         {{ range .Site.Menus.service }}
                         <li>
-                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
-                </div>
+                    </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>{{ .Site.Params.footerQuicklinkTitle }}</h3>
                     <ul>
                         {{ range .Site.Menus.quicklink }}
                         <li>
-                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
@@ -40,6 +41,7 @@
             </div>
         </div>
     </div>
+-->
 
     <div class="footer-bottom">
       <h5>Copyright 2020 <strong>Particule.</strong> All rights reserved.</h5>
