@@ -1,6 +1,6 @@
 {{ "<!-- Footer Start -->" | safeHTML }}
 <footer id="footer" class="bg-one">
-  <!--
+
     <div class="top-footer">
         <div class="container">
             <div class="row">
@@ -13,7 +13,7 @@
                     <ul>
                         {{ range .Site.Menus.service }}
                         <li>
-                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
@@ -23,7 +23,7 @@
                     <ul>
                         {{ range .Site.Menus.quicklink }}
                         <li>
-                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
@@ -40,10 +40,10 @@
             </div>
         </div>
     </div>
-    -->
+
     <div class="footer-bottom">
-        <h5>Copyright 2020 Particule. All rights reserved.</h5>
-        <h6>Design and Developed by <a
+      <h5>Copyright 2020 <strong>Particule.</strong> All rights reserved.</h5>
+        <h6>Originaly Design and Developed by <a
             href="https://themefisher.com/free-bootstrap-templates/"
             target="_blank">themefisher.com</a>
         </h6>
