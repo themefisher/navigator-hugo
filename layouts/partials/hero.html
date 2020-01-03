@@ -27,7 +27,7 @@
                     {{ if .Site.Params.hero.button }}
                         <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
                             <li class="list-inline-item">
-                                <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
+                                <a data-scroll href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
                             </li>
                         </ul>
                     {{ end }}

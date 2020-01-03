@@ -5,11 +5,9 @@
         <div class="row">
             <div class="col">
                 <div class="title text-center">
-                    {{ with .Site.Params.blog.topTitle }}<h4>{{ . }}</h4>{{ end }}
                     <a href="blog/">
                     {{ with .Site.Params.blog.title }}<h2>{{ . }}</h2><span class="border"></span>{{ end }}
                     </a>
-                    {{ with .Site.Params.blog.subtitle }}<p>{{ . }}</p>{{ end }}
                 </div>
             </div>
         </div>
