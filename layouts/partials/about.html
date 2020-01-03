@@ -5,8 +5,10 @@
     <section class="about section-sm" id="about">
       <div class="container about-container">
             {{ range .item }}
+              <div class="title text-center">
+                <span class="border border-about"></span>
+              </div>
                 {{ if .positionRight }}
-                              <span class="border border-about"></span>
                     <div class="row mt-50 justify-content-center">
                         <div class="col-md-5 col-md-5 col-sm-12">
                             <div class="content">
@@ -21,7 +23,6 @@
                         </div>
                     </div>
                 {{ else }}
-                              <span class="border border-about"></span>
                     <div class="row mb-50 justify-content-center">
                         <div class="col-md-5 col-sm-12 text-center">
                             <img src="{{ .image | absURL }}" class="img-fluid img-about" alt="about-image">

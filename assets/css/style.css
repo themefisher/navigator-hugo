@@ -434,8 +434,6 @@ a:focus, a:hover {
   height: 6px;
   position: relative;
   width: 90px;
-  right: 50%;
-  left: 50%;
 }
 
 .header-bradcrumb {
