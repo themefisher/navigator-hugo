@@ -135,8 +135,7 @@ a:focus, a:hover {
 }
 
 .mb-50 {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .btn:focus {
@@ -148,7 +147,7 @@ a:focus, a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 @media (max-width: 480px) {
@@ -168,11 +167,12 @@ a:focus, a:hover {
 }
 
 .section-sm {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .section-xs {
-  padding: 40px 0;
+  padding: 20px 0;
+  margin-top: 20px;
 }
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
@@ -362,7 +362,6 @@ a:focus, a:hover {
 }
 
 .title {
-  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -407,7 +406,7 @@ a:focus, a:hover {
   height: 6px;
   position: relative;
   width: 90px;
-  margin-bottom: 10px;
+  vertical-align: middle;
 }
 
 .bg-gray {
@@ -819,6 +818,7 @@ a:focus, a:hover {
 ==================================================================*/
 .about-2 {
   background: #F7F7F7;
+  padding: 20px;
 }
 
 .about-2 h2 {
@@ -827,12 +827,12 @@ a:focus, a:hover {
 
 .about-2 h2:before {
   position: absolute;
-  left: -15%;
+  left: -8%;
   top: 18px;
   content: '';
   display: inline-block;
-  width: 12%;
-  height: 3px;
+  width: 6%;
+  height: 6px;
   background-color: var(--color-secondary-1-2);
 }
 
@@ -890,6 +890,7 @@ a:focus, a:hover {
   ==================================================================*/
 .contact-form {
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -981,6 +982,7 @@ a:focus, a:hover {
 
 .map {
   position: relative;
+  margin-top: 20px;
 }
 
 .map #map {
@@ -1428,7 +1430,7 @@ a:focus, a:hover {
 
 .team-member {
   background-color: #eceff4;
-  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .team-member:hover .mask {
@@ -1568,11 +1570,12 @@ a:focus, a:hover {
 ==================================================================*/
 .post-item {
   background: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .post-item .post-thumb {
-  margin-right: 10px;
+  padding: 10px;
 }
 
 .post-item .post-thumb img {
@@ -1942,12 +1945,13 @@ a:focus, a:hover {
 }
 
 .col-team-member {
-  max-width: 350px; /* = max team member img size */
-  flex: 0 0 33%
+  max-width: 380px; /* = max team member img size, percentage breaks wrap*/
+  flex: 0 0 33.333333%;
+  margin-top: 20px;
 }
 
 .img-team-member {
-  max-width: 320px;
+  max-width: 350px;
 }
 
 .img-about {
