@@ -25,19 +25,19 @@
             <div class="contact-form col-12 col-md-6 ">
                 <form id="contact-form" method="post" action="sendmail.php" role="form">
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                      <input type="text" placeholder="{{ i18n "yourname" }}" class="form-control" name="name" id="name">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        <input type="email" placeholder="{{ i18n "youremail" }}" class="form-control" name="email" id="email">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        <input type="text" placeholder="{{ i18n "subject" }}" class="form-control" name="subject" id="subject">
                     </div>
 
                     <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                        <textarea rows="6" placeholder="{{ i18n "message" }}" class="form-control" name="message" id="message"></textarea>
                     </div>
 
                     <div id="mail-success" class="success">
@@ -49,7 +49,7 @@
                     </div>
 
                     <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="{{ i18n "submit" }}">
                     </div>
                 </form>
             </div>
@@ -58,24 +58,24 @@
             <div class="col-12 col-md-4">
                 <div class="address-block contact-meta-block">
                     <i class="tf-ion-android-pin"></i>
-                    <h4>Our Location</h4>
+                    <h4>{{ i18n "location" }}</h4>
                     {{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
-                    <h4>Contact Us</h4>
+                    <h4>{{ i18n "contactus" }}</h4>
                     <p>
                          {{ with .Site.Params.contact.email }}Email: <a href="mailto:{{ . }}">{{ . }} </a>{{ end }}
-                        <br> {{ with .Site.Params.contact.phone }} Phone: {{ . }} {{ end }}
+                         <br> {{ with .Site.Params.contact.phone }} {{ i18n "phone" }}: {{ . }} {{ end }}
                     </p>
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="social-icons-block contact-meta-block">
                     <i class="tf-ion-ios-contact"></i>
-                    <h4>We are social</h4>
+                    <h4>{{ i18n "wearesocial" }}</h4>
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.github }}
                         <li class="list-inline-item">
