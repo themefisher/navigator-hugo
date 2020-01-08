@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 /* Palette */
 
 :root {
@@ -30,13 +30,15 @@ body {
 
 p {
   font-family: "Titillium Web", sans-serif;
-  color: #9a9a9a;
+  color: #4c566a;
   font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
+  color: #3b4252;
+  margin-bottom: 0.7rem;
 }
 
 /*=== MEDIA QUERY ===*/
@@ -50,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
 
 ol, ul {
   margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -659,6 +660,7 @@ a:focus, a:hover {
 
 .hero-area .block h2 {
   font-size: 4.35em;
+  color: #fff;
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -1632,7 +1634,7 @@ a:focus, a:hover {
 }
 
 .blog-single p {
-  color: #666565;
+  color: #4c566a;
 }
 
 .blog-single a:hover {
@@ -1958,3 +1960,64 @@ a:focus, a:hover {
   max-width: 330px;
 }
 
+.img-about {
+  position: relative;
+  top: 50px;
+}
+
+.blog-single img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+  padding: 2rem
+}
+
+.blog-single ol, .blog-single ul {
+  margin: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  color: #4c566a;
+}
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+code {
+  font-size: 1rem;
+  color: #ff2300;
+}
+
+pre {
+  padding: 1rem;
+  background-color: #2e3440;
+  margin-top: 1rem;
+}
+
+pre code{
+  color: #eceff4;
+}
+
+code, kbd, pre, samp {
+  font-family: 'Roboto Mono', monospace;
+}
