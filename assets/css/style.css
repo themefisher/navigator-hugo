@@ -130,12 +130,13 @@ a:focus, a:hover {
 }
 
 .mt-50 {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .mb-50 {
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .btn:focus {
@@ -815,7 +816,7 @@ a:focus, a:hover {
 ==================================================================*/
 .about-2 {
   background: #F7F7F7;
-  padding: 20px;
+  padding: 50px;
 }
 
 .about-2 h2 {
@@ -837,6 +838,10 @@ a:focus, a:hover {
   .about-2 h2:before {
     display: none;
   }
+}
+
+.about-2 .col-md-5 {
+  margin-bottom: 40px;
 }
 
 /*=================================================================
@@ -1931,6 +1936,8 @@ a:focus, a:hover {
   flex: 1 1 40%;
   max-width: 100%;
   margin: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .about-container {
@@ -1951,7 +1958,3 @@ a:focus, a:hover {
   max-width: 330px;
 }
 
-.img-about {
-  position: relative;
-  top: 50px;
-}
