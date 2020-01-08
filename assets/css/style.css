@@ -20,6 +20,14 @@
   --color-secondary-2-2: #FF5439;
   --color-secondary-2-3: #C51B00;
   --color-secondary-2-4: #9B1500;
+
+  --color-nord0: #2e3440;
+  --color-nord1: #3b4252;
+  --color-nord2: #434c5e;
+  --color-nord3: #4c566a;
+  --color-nord4: #d8dee9;
+  --color-nord5: #e5e9f0;
+  --color-nord6: #eceff4;
 }
 
 body {
@@ -30,14 +38,14 @@ body {
 
 p {
   font-family: "Titillium Web", sans-serif;
-  color: #4c566a;
+  color: var(--color-nord3);
   font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
-  color: #3b4252;
+  color: var(--color-nord1);
   margin-bottom: 0.7rem;
 }
 
@@ -1634,7 +1642,7 @@ a:focus, a:hover {
 }
 
 .blog-single p {
-  color: #4c566a;
+  color: var(--color-nord3);
 }
 
 .blog-single a:hover {
@@ -1977,7 +1985,7 @@ a:focus, a:hover {
   list-style: none;
   margin-bottom: 1rem;
   font-size: 20px;
-  color: #4c566a;
+  color: var(--color-nord3);
 }
 
 img[src$='#center']
