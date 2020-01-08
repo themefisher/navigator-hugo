@@ -187,7 +187,6 @@ a:focus, a:hover {
   opacity: 1;
   filter: alpha(opacity=100);
   position: fixed;
-  text-align: center;
   width: 100%;
   z-index: 99;
   display: -webkit-box;
@@ -199,14 +198,12 @@ a:focus, a:hover {
 }
 
 .preloader {
-  margin: auto;
-  /*width: 40px;
-  height: 40px;
-  position: relative;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .preloader img {
-  text-align: center;
+  width: 300px;
 }
 
 .preloader .sk-child {
@@ -660,7 +657,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block h2 {
-  font-size: 90px;
+  font-size: 4.35em;
   margin-bottom: 20px;
   font-weight: bold;
 }
