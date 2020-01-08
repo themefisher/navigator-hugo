@@ -5,4 +5,4 @@ os:
   - linux
 sudo: false
 script:
-  - "/bin/bash ./.ci/webhook.sh"
+  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then /bin/bash ./.ci/webhook.sh; fi
