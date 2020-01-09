@@ -1968,11 +1968,6 @@ a:focus, a:hover {
   max-width: 330px;
 }
 
-.img-about {
-  position: relative;
-  top: 50px;
-}
-
 .blog-single img {
   vertical-align: middle;
   border-style: none;
