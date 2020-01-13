@@ -2006,6 +2006,13 @@ img[src$='#floatright']
     /* whatever else styles you fancy here */
 }
 
+img[src$='#flex10']
+{
+    margin: 0.25rem;
+    max-width : 10%;
+    margin-top: 15px
+}
+
 code {
   font-size: 1rem;
   color: #ff2300;
