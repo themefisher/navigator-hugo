@@ -2009,7 +2009,7 @@ img[src$='#floatright']
 img[src$='#flex10']
 {
     margin: 0.25rem;
-    max-width : 10%;
+    max-width : 15%;
     margin-top: 15px
 }
 
