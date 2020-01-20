@@ -74,3 +74,4 @@
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
+{{ template "_internal/google_analytics_async.html" . }}
