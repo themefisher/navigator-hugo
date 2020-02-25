@@ -374,7 +374,8 @@ a:focus, a:hover {
 
 .title h2 {
   font-size: 35px;
-  color: #232323;
+  color: var(--color-nord1);
+  margin-bottom: 0.7rem;
   text-transform: capitalize;
   margin-bottom: 8px;
   font-weight: 700;
@@ -1603,12 +1604,12 @@ a:focus, a:hover {
 }
 
 .post-item .post-title h3 a {
-  color: #000;
+  color: var(--color-nord1);
 }
 
 .post-item .post-meta {
   font-size: 14px;
-  color: #888;
+  color: var(--color-nord3);
 }
 
 .post-item .post-meta a {
@@ -1617,7 +1618,7 @@ a:focus, a:hover {
 }
 
 .post-item .post-content p {
-  color: #757575;
+  color: var(--color-nord3);
   margin: 10px 0;
 }
 
