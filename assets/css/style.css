@@ -1259,12 +1259,12 @@ a:focus, a:hover {
 }
 
 .services .service-block h3 {
-  color: #333;
+  color: var(--color-nord1);
   font-size: 18px;
 }
 
 .services .service-block p {
-  color: #777;
+  color: var(--color-nord3);
 }
 
 /*=================================================================
