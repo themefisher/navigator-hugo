@@ -500,8 +500,27 @@ a:focus, a:hover {
 }
 
 .bg-pricing {
-  background: url("../images/pricing-bg.jpg");
   background-size: cover;
+  background: var(--color-primary-0);
+}
+
+.bg-pricing-kubernetes {
+  background-size: cover;
+  background: #326ce5;
+}
+.bg-pricing-openstack {
+  background-size: cover;
+  background: #ed1944;
+}
+
+.bg-pricing-aws {
+  background-size: cover;
+  background: #ff9a00;
+}
+
+.bg-pricing-generic {
+  background-size: cover;
+  background: var(--color-primary-0);
 }
 
 .single-page-header {
@@ -2031,4 +2050,8 @@ pre code{
 
 code, kbd, pre, samp {
   font-family: 'Roboto Mono', monospace;
+}
+
+.formations {
+  padding-bottom: 50px;
 }
