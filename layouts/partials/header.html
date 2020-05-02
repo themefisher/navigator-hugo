@@ -10,7 +10,7 @@
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-md">
                     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-                        <img src="{{ with .Site.Params.logo }}{{ . | absURL }}{{ end }}" alt="logo">
+                        <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">

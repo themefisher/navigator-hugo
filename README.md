@@ -38,7 +38,7 @@ Navigate to your themes folder in your Hugo site and use the following commands:
 ```
 $ mkdir themes
 $ cd themes
-$ git clone git@github.com:themefisher/navigator-hugo.git
+$ git clone https://github.com/themefisher/navigator-hugo.git
 ```
 
 [Full Documentation](http://demo.themefisher.com/navigator-hugo/en/blog/installation/).
