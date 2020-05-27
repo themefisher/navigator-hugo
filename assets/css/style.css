@@ -471,6 +471,17 @@ a:focus, a:hover {
   background: #1f2532;
 }
 
+.top-bar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  transition: all 0.2s ease-out 0s;
+  padding: 10px 0;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
 .navigation .navbar-nav > li.active a {
   color: #fff;
 }
@@ -1781,24 +1792,4 @@ a:focus, a:hover {
 
 .page-404 h1 {
   font-size: 200px;
-}
-
-/*# sourceMappingURL=maps/style.css.map */
-.top-bar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: #fff;
-  color: #fff;
-  transition: all 0.2s ease-out 0s;
-  padding: 15px 0;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #dedede;
-  z-index: 10;
-}
-
-.top-bar.animated-header {
-  padding: 20px 0;
-  background: #fff;
-  box-shadow: none;
 }
