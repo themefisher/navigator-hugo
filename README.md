@@ -59,7 +59,7 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 
 ## Technical Support or Questions (Paid)
 
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.  
+If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
 
 ## Licensing
 
@@ -71,7 +71,7 @@ If you want to remove the credit simply make a [donation](https://www.paypal.com
 [Installation](https://gohugo.io/getting-started/installing/) | [More Hugo Themes By Themefisher](https://themefisher.com/hugo-themes/)  
 
 ## Hire Us
-We are available for Hiring of your next HUGO project. Drop Us a mail [themefisher@gmail.com](mailto:themefisher@gmail.com)
+We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@themefisher.com](mailto:mehedi@themefisher.com)
 
 ## Premium Themes
 
