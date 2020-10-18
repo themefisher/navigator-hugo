@@ -106,7 +106,6 @@ weight = 2
 languageCode = "en-us"
 title = "Example site multi-language"
 dateFormat = "January 2, 2006"
-
 home = "EN Home"
 logo = "images/logo.png"
 menufixed = false
@@ -116,6 +115,12 @@ footerServiceTitle = "Service"
 footerQuicklinkTitle = "Quicklinks"
 footerAboutTitle = "About"
 footerSubscribeTitle = "Subscribe"
+
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
 
 # Hero Area Section
 [Languages.en.params.hero]
