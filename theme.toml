@@ -1,9 +1,9 @@
 name = "Navigator Hugo"
-license = "CC BY 3.0"
-licenselink = "https://creativecommons.org/licenses/by/3.0/"
+license = "MIT"
+licenselink = "https://github.com/themefisher/navigator-hugo/blob/master/LICENSE"
 description = "Hugo port of the Themefisher’s Navigator Template"
 homepage = "https://gethugothemes.com/products/navigator/"
-tags = ['landing-page', 'business', 'agency-template', 'multilingual', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'company', 'projects', 'dark', 'creative', 'contact-form', 'custom-themes', 'mobile', 'flexbox', 'minimalistic', 'pages']
+tags = ['landing-page', 'business', 'agency-template', 'multilingual', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'company', 'projects', 'dark', 'creative', 'contact-form', 'custom-themes', 'mobile', 'flexbox', 'minimalistic', 'gethugothemes']
 features = ['bootstrap4','responsive','multilingual']
 min_version = "0.62.0"
 
