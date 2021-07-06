@@ -7,6 +7,6 @@
 {{ if eq (string .liste.code) (string .site.Language) }}
     <a href="{{ .liste.code | absURL }}" class="selected"><img src= {{ $icone_url | absURL }} alt="IMAGE" />{{ .liste.code }}
     {{ else }}
-    <a href="{{ .liste.code | absURL }}"><img src= {{ $icone_url | absURL }} alt="IMAGE" />
+    <a href="{{ .liste.code | absURL }}"><img src= {{ $icone_url | absURL }} alt="IMAGE" />{{ .liste.code }}
 {{ end }}
 </a>

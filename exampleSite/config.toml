@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://demo.gethugothemes.com/navigator/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
@@ -40,7 +40,7 @@ languageCode = "fr-fr"
 title = "FRANCAIS Example site multi-language"
 dateFormat = "2 January 2006"
 
-home = "FR Home"
+home = "Home"
 logo = "images/logo.png"
 menufixed = false
 
@@ -106,7 +106,7 @@ weight = 2
 languageCode = "en-us"
 title = "Example site multi-language"
 dateFormat = "January 2, 2006"
-home = "EN Home"
+home = "Home"
 logo = "images/logo.png"
 menufixed = false
 

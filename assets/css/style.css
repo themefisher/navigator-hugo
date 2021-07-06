@@ -471,6 +471,23 @@ a:focus, a:hover {
   background: #1f2532;
 }
 
+.select-language a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.select-language a.selected {
+  display: none;
+}
+
+.select-language a img {
+  position: relative;
+  top: -2px;
+  left: -3px;
+}
+
 .top-bar {
   position: sticky;
   top: 0;
@@ -482,26 +499,27 @@ a:focus, a:hover {
   z-index: 10;
 }
 
-.navigation .navbar-nav > li.active a {
+.navigation .navbar-nav > li.active .nav-link {
   color: #fff;
 }
 
-.navigation .navbar-nav > li > a {
-  color: #707d8f;
+.navigation .navbar-nav > li > .nav-link {
+  color: #b6b8bb;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
   transition: .2s ease-in-out 0s;
+  text-transform: capitalize;
 }
 
 @media (max-width: 480px) {
-  .navigation .navbar-nav > li > a {
+  .navigation .navbar-nav > li > .nav-link {
     padding: 8px 0 !important;
   }
 }
 
-@media (max-width: 768px) {
-  .navigation .navbar-nav > li > a {
+@media (max-width: 991px) {
+  .navigation .navbar-nav > li > .nav-link {
     padding: 8px 0 !important;
   }
 }
@@ -1699,7 +1717,8 @@ a:focus, a:hover {
   color: #cccccc;
 }
 .pagination li.active a{
-  color: #f0326b;
+  background-color: #f0326b !important;
+  border-color: #f0326b !important;
   font-weight: 600;
 }
 
@@ -1754,23 +1773,22 @@ a:focus, a:hover {
 }
 
 .footer-bottom h5 {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1;
   color: #888888;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 2px;
   margin-top: 7px;
   margin-bottom: 3px;
 }
 
 .footer-bottom h6 {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 15px;
   color: #888888;
   font-weight: 400;
   text-transform: capitalize;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 0;
 }
 

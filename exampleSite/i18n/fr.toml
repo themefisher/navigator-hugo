@@ -1,24 +1,24 @@
 [about]
-other = "FR About"
+other = "À Propos"
 [service]
-other = "FR Service"
+other = "Un Service"
 [portfolio]
-other = "FR Portfolio"
+other = "Portefeuille"
 [blog]
-other = "FR Blog"
+other = "Blog"
 [contact]
-other = "FR Contact"
+other = "Contacter"
 
 [graphicdesign]
-other = "FR Graphic Design"
+other = "Graphic Design"
 [webdesign]
-other = "FR Web Design"
+other = "Web Design"
 [webdevelopment]
-other = "FR Web Development"
+other = "Web Development"
 
 [partners]
-other = "FR Partners"
+other = "Les Partenaires"
 [faqs]
-other = "FR FAQ's"
+other = "FAQ's"
 [badges]
-other = "FR Badges"
+other = "Insignes"
