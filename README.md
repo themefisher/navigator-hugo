@@ -1,67 +1,120 @@
-<div align="center">
-<h1><a href="https://themefisher.com/hugo-themes/">Navigator Hugo</a></h1>
-<img src="https://user-images.githubusercontent.com/37659754/54080047-38a01b80-4312-11e9-8aa2-1e716c07c0f2.gif" alt="screenshot" width="100%">
-</div>
+<h1 align=center>Navigator Hugo | <a target="_blank" href="https://demo.gethugothemes.com/navigator" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fnavigator%2Fen%2F">Page Speed (74%)</a></h1>
 
-Navigator is a responsive, modern and clean free multipurpose template powered by Bootstrap4. Built with refined business as well as corporate elements, and saturated with rich typography, Navigator is lightweight, fast-loading, responsive and W3C-validated, delivering a great first impression to visitors.
+<p align=center>
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.62.0&color=f00&logo=hugo" />
+  </a>
 
-Navigator based on Bootstrap 4 and offers Amazing design layout.
+  <a href="https://github.com/gethugothemes/navigator-hugo/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/gethugothemes/navigator-hugo" alt="license"></a>
 
-**The images are only for demonstration purpose, Please don't use those images.**
+  <img src="https://img.shields.io/github/languages/code-size/gethugothemes/navigator-hugo" alt="code size">
 
-## Table of Contents
+  <a href="https://github.com/gethugothemes/navigator-hugo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/gethugothemes/navigator-hugo" alt="contributors"></a>
 
-- [Demo](#demo)
-- [Installation](#installation)
-- [Main Features](#main-features)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions-(paid))
-- [Licensing](#licensing)
-- [More Hugo Themes](https://themefisher.com/hugo-themes/)
+  <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
+    <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
+      alt="follow on Twitter"></a>
+</p>
 
-## Demo
+---
 
-| About  | Service  | Portfolio  | Contact  |
-|---|---|---|---|
-| ![About page](https://user-images.githubusercontent.com/37659754/54080077-a0eefd00-4312-11e9-91d7-5d77982885f1.png)  | ![Service page](https://user-images.githubusercontent.com/37659754/54080080-a1879380-4312-11e9-9f2e-f06114e6de57.png) | ![Portfolio page](https://user-images.githubusercontent.com/37659754/54080079-a0eefd00-4312-11e9-8306-3982f4288279.png) | ![Contact page](https://user-images.githubusercontent.com/37659754/54080078-a0eefd00-4312-11e9-9083-fa8a9ac64122.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/37659754/54080047-38a01b80-4312-11e9-8aa2-1e716c07c0f2.gif" alt="screenshot" width="100%">
+</p>
 
-[Live Demo](https://demo.themefisher.com/navigator/).
+---
+## Features
+- Multiple homepage (2)
+- Google analytics  support
+- Netlify settings predefine
+- Multiple language support (Fr, En)
+- Google page speed optimized ( 74% )
+- Contact form Support
+- GDPR consent enable
+- Google map support
+- Open graph meta tag
+- Twitter card meta tag
 
-## Installation
 
-Navigate to your themes folder in your Hugo site and use the following commands:
+## Local development
 
+```bash
+# clone the repository
+git clone git@github.com:gethugothemes/navigator-hugo.git
+
+# cd in the project directory
+$ cd navigator-hugo/exampleSite/
+
+# Start local dev server
+$ hugo server --themesDir ../..
 ```
-$ mkdir themes
-$ cd themes
-$ git clone https://github.com/themefisher/navigator-hugo.git
-```
-
 Or Check out [Full Documentation](https://docs.gethugothemes.com/navigator/?ref=github).
 
-## Main features
+## Content Management System
 
-* Fully Responsive Ready.
-* Powered by bootstrap css framework.
-* Parallax effect.
-* Shortable portfolio.
-* Multipage.
-* Documented codes.
+[![import to
+Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=gethugothemes/navigator-hugo&engine=hugo&version=0.87.0)
 
+This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
+repository in Forestry](https://app.forestry.io/quick-start?repo=gethugothemes/navigator-hugo&engine=hugo&version=0.87.0) and
+you will be able to edit and preview your site ✨.
+
+Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+
+## Deployment and hosting
+
+[![Deploy to
+Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/navigator-hugo)
+
+Follow the steps.
+
+## Prefer a video? (Hugo + Netlify + Forestry)
+Build your website with **Navigator Hugo** theme by following these easy steps (No Coding Required!)
+[Video Tutorial](https://youtu.be/ResipmZmpDU).
+
+<!-- reporting issue -->
 ## Reporting Issues
+We use GitHub Issues as the official bug tracker for the navigator Template. Please Search [existing
+issues](https://github.com/gethugothemes/navigator-hugo/issues). Someone may have already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new
+issue](https://github.com/gethugothemes/navigator-hugo/issues).
 
-We use GitHub Issues as the official bug tracker for the Navigator Template. Please Search [existing issues](https://github.com/themefisher/navigator-hugo/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/navigator-hugo/issues)
+<!-- ## Navigator Hugo theme Powered Websites
 
-## Technical Support or Questions (Paid)
 
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
+View all the websites powered by Navigator Hugo theme [here](https://github.com/gethugothemes/navigator-hugo/wiki/All-Navigator-Hugo-Powered-Websites). Want to submit your own website powered by Navigator Hugo theme? You can submit it [here](https://github.com/gethugothemes/navigator-hugo/discussions/51). -->
+
+<!-- licence -->
+## License
+Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
+[Gethugothemes](https://gethugothemes.com)
+
+**Code License:** Released under the [MIT](https://github.com/gethugothemes/navigator-hugo/blob/master/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
+share those images.
+
+<!-- resources -->
+## Special Thanks
+- [Bootstrap](https://getbootstrap.com)
+- [Jquery](https://jquery.com)
+- [Filterizr](https://yiotis.net/filterizr/)
+- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2)
+- [Parallax](https://ianlunn.co.uk/plugins/jquery-parallax)
+- [Slick Slider](https://kenwheeler.github.io/slick/)
+- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+- [Google Fonts](https://fonts.google.com/)
+- [All Contributors](https://github.com/gethugothemes/navigator-hugo/graphs/contributors)
+
 
 ## Hire Us
-We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@themefisher.com](mailto:mehedi@themefisher.com)
+We are available for **Hiring** for your next HUGO project. Please, check our
+[services](https://cutt.ly/ght-service)
 
-## Premium Themes
-
-| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Biztrox](https://gethugothemes.com/wp-content/uploads/2019/12/Biztrox.png)](https://gethugothemes.com/products/hugo-business-theme/) | [![bexer](https://gethugothemes.com/wp-content/uploads/2019/06/hugo-theme-bexer.jpg)](https://gethugothemes.com/products/bexer-hugo-theme/) |
+<!-- premium themes -->
+## Premium Themes By Us
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![touchy](https://demo.gethugothemes.com/thumbnails/touchy.webp)](https://gethugothemes.com/products/touchy/) | [![gojournal](https://demo.gethugothemes.com/thumbnails/gojournal.webp)](https://gethugothemes.com/products/gojournal-hugo/) |
 |:---:|:---:|:---:|
-| **Hugo Mega Bundle**  | **Biztrox**  | **Bexer**  |
+| **Premium Theme Bundle (40+)** | **Touchy** | **Gojournal** |
