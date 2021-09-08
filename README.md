@@ -27,13 +27,13 @@
 ---
 ## Features
 - Multiple homepage (2)
-- Google analytics  support
-- Netlify settings predefine
 - Multiple language support (Fr, En)
-- Google page speed optimized ( 74% )
+- Google analytics support
+- Netlify settings predefine
 - Contact form Support
 - GDPR consent enable
 - Google map support
+- Google page speed optimized ( 74% )
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -111,10 +111,10 @@ share those images.
 
 ## Hire Us
 We are available for **Hiring** for your next HUGO project. Please, check our
-[services](https://cutt.ly/ght-service)
+[services](https://gethugothemes.com/services/?ref=github)
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![touchy](https://demo.gethugothemes.com/thumbnails/touchy.webp)](https://gethugothemes.com/products/touchy/) | [![gojournal](https://demo.gethugothemes.com/thumbnails/gojournal.webp)](https://gethugothemes.com/products/gojournal-hugo/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![saasis](https://demo.gethugothemes.com/thumbnails/saasis.webp)](https://gethugothemes.com/products/saasis/) | [![phantom](https://demo.gethugothemes.com/thumbnails/phantom.webp)](https://gethugothemes.com/products/phantom-hugo/) |
 |:---:|:---:|:---:|
-| **Premium Theme Bundle (40+)** | **Touchy** | **Gojournal** |
+| **Premium Theme Bundle (40+)** | **Saasis** | **Phantom** |
