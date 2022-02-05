@@ -1,7 +1,7 @@
 name = "Navigator Hugo"
 license = "MIT"
-licenselink = "https://github.com/themefisher/navigator-hugo/blob/master/LICENSE"
-description = "Hugo port of the Themefisher’s Navigator Template"
+licenselink = "https://github.com/gethugothemes/navigator-hugo/blob/master/LICENSE"
+description = "Navigator is a business theme powered by Hugo. It also could be used for a personal portfolio."
 homepage = "https://gethugothemes.com/products/navigator/"
 demosite = "https://demo.gethugothemes.com/navigator/"
 tags = ['landing-page', 'business', 'agency-template', 'multilingual', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'company', 'projects', 'dark', 'creative', 'contact-form', 'custom-themes', 'mobile', 'flexbox', 'minimalistic', 'gethugothemes']
@@ -9,5 +9,5 @@ features = ['bootstrap4','responsive','multilingual']
 min_version = "0.62.0"
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/hugo-themes/"
+  name = "Gethugothemes"
+  homepage = "http://gethugothemes.com/"
