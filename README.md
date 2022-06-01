@@ -25,7 +25,9 @@
 </p>
 
 ---
+
 ## Features
+
 - Multiple homepage (2)
 - Multiple language support (Fr, En)
 - Google analytics support
@@ -36,7 +38,6 @@
 - Google page speed optimized ( 74% )
 - Open graph meta tag
 - Twitter card meta tag
-
 
 ## Local development
 
@@ -50,6 +51,7 @@ $ cd navigator-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
+
 Or Check out [Full Documentation](https://docs.gethugothemes.com/navigator/?ref=github).
 
 ## Content Management System
@@ -71,11 +73,13 @@ Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com
 Follow the steps.
 
 ## Prefer a video? (Hugo + Netlify + Forestry)
+
 Build your website with **Navigator Hugo** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the navigator Template. Please Search [existing
 issues](https://github.com/gethugothemes/navigator-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
@@ -83,11 +87,11 @@ issue](https://github.com/gethugothemes/navigator-hugo/issues).
 
 <!-- ## Navigator Hugo theme Powered Websites
 
-
 View all the websites powered by Navigator Hugo theme [here](https://github.com/gethugothemes/navigator-hugo/wiki/All-Navigator-Hugo-Powered-Websites). Want to submit your own website powered by Navigator Hugo theme? You can submit it [here](https://github.com/gethugothemes/navigator-hugo/discussions/51). -->
 
 <!-- licence -->
 ## License
+
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
 
@@ -98,6 +102,7 @@ share those images.
 
 <!-- resources -->
 ## Special Thanks
+
 - [Bootstrap](https://getbootstrap.com)
 - [Jquery](https://jquery.com)
 - [Filterizr](https://yiotis.net/filterizr/)
@@ -108,15 +113,16 @@ share those images.
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/gethugothemes/navigator-hugo/graphs/contributors)
 
-
 ## Hire Us
-Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo. 
 
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our 
+Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
+
+If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
 [services](https://gethugothemes.com/services/?utm_source=navigator_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=navigator_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.webp)](https://gethugothemes.com/products/meghna-hugo-theme/) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.webp)](https://gethugothemes.com/products/bigspring/) |
+
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=navigator_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.png)](https://gethugothemes.com/products/meghna-hugo-theme/) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) |
 |:---:|:---:|:---:|
 | **Get 50+ Premium Hugo Themes Bundle** | **Meghna** | **Bigspring** |
