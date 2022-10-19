@@ -1,4 +1,9 @@
-<h1 align=center>Navigator Hugo | <a target="_blank" href="https://demo.gethugothemes.com/navigator" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fnavigator%2Fen%2F">Page Speed (74%)</a></h1>
+<h1 align=center>Navigator Hugo</h1>
+<p align=center>This theme is highly customizable and aimed exclusively at presenting any business or corporate profile.</p>
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/navigator" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fnavigator%2Fsite%2Fen%2F&form_factor=desktop">Page Speed (93%)</a>
+</h2>
+
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.0" alt="Contributors">
@@ -35,7 +40,7 @@
 - Contact form Support
 - GDPR consent enable
 - Google map support
-- Google page speed optimized ( 74% )
+- Google page speed optimized ( 93% )
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -87,8 +92,9 @@ issue](https://github.com/gethugothemes/navigator-hugo/issues).
 
 <!-- ## Navigator Hugo theme Powered Websites
 
-View all the websites powered by Navigator Hugo theme [here](https://github.com/gethugothemes/navigator-hugo/wiki/All-Navigator-Hugo-Powered-Websites). Want to submit your own website powered by Navigator Hugo theme? You can submit it [here](https://github.com/gethugothemes/navigator-hugo/discussions/51). -->
-
+View all the websites powered by Navigator Hugo theme [here](https://github.com/gethugothemes/navigator-hugo/wiki/All-Navigator-Hugo-Powered-Websites). -->
+## Add your website to the Gethugothemes showcase
+Want to submit your own website powered by Navigator Hugo to the Gethugothemes showcase? You can submit it [here](https://gethugothemes.com/showcase).
 <!-- licence -->
 ## License
 
@@ -123,6 +129,6 @@ If you need to customize the theme or complete website development from scratch,
 <!-- premium themes -->
 ## Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=navigator_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.png)](https://gethugothemes.com/products/meghna-hugo-theme/) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=navigator_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.png)](https://gethugothemes.com/products/meghna-hugo-theme/) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Meghna** | **Bigspring** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Meghna** | **Bigspring** |
