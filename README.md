@@ -40,7 +40,7 @@
 - Contact form Support
 - GDPR consent enable
 - Google map support
-- Google page speed optimized ( 93% )
+- Google page speed optimized
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -90,11 +90,15 @@ issues](https://github.com/gethugothemes/navigator-hugo/issues). Someone may hav
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/gethugothemes/navigator-hugo/issues).
 
-<!-- ## Navigator Hugo theme Powered Websites
 
-View all the websites powered by Navigator Hugo theme [here](https://github.com/gethugothemes/navigator-hugo/wiki/All-Navigator-Hugo-Powered-Websites). -->
-## Add your website to the Gethugothemes showcase
-Want to submit your own website powered by Navigator Hugo to the Gethugothemes showcase? You can submit it [here](https://gethugothemes.com/showcase).
+## Submit Your Website To Our Showcase
+
+Are you using Navigator Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
+
+Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator. 
+
+[Submit](https://gethugothemes.com/showcase?submit=show) your Navigator Hugo powered website.
+
 <!-- licence -->
 ## License
 
