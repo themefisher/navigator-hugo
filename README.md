@@ -1,6 +1,6 @@
 <h1 align=center>Navigator Hugo</h1>
 <p align=center>This theme is highly customizable and aimed exclusively at presenting any business or corporate profile.</p>
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/navigator" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fnavigator%2Fsite%2Fen%2F&form_factor=desktop">Page Speed (93%)</a>
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/navigator" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fnavigator%2Fsite%2Fen%2F&form_factor=desktop">Page Speed (93%)🚀</a>
 </h2>
 
 
@@ -23,28 +23,38 @@
       alt="follow on Twitter"></a>
 </p>
 
----
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/37659754/54080047-38a01b80-4312-11e9-8aa2-1e716c07c0f2.gif" alt="screenshot" width="100%">
 </p>
 
----
 
-## Features
+## 🔑Features
+- 📄 7+ Pre-Designed Pages
+- 🏠 Multiple homepages (2)
+- 🌍 Multiple language support (Fr, En)
+- 📊 Google Analytics support
+- ⚙️ Netlify settings predefine
+- 🅱️ Bootstrap Based
+- ✉️ Contact form support
+- 🔄 GDPR consent enabled
+- 🗺️ Google Maps support
+- 🚀 Google Page Speed optimized
+- 🌐 Open Graph meta tag
+- 🐦 Twitter Card meta tag
 
-- Multiple homepage (2)
-- Multiple language support (Fr, En)
-- Google analytics support
-- Netlify settings predefine
-- Contact form Support
-- GDPR consent enable
-- Google map support
-- Google page speed optimized
-- Open graph meta tag
-- Twitter card meta tag
+## 📄 7+ Pre-Designed Pages
 
-## Local development
+- 🏠 Home Page
+- ℹ️ About Page
+- 📞 Contact Page
+- 📄 Portfolio Page
+- 📄 Blog Page
+- 📝 Blog Single Page
+- 📧 Contact Page
+
+## 🔧Local development
 
 ```bash
 # clone the repository
@@ -59,7 +69,7 @@ $ hugo server --themesDir ../..
 
 Or Check out [Full Documentation](https://docs.gethugothemes.com/navigator/?ref=github).
 
-## Content Management System
+## 📋Content Management System
 
 [![import to
 Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=gethugothemes/navigator-hugo&engine=hugo&version=0.87.0)
@@ -70,20 +80,20 @@ you will be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
 
-## Deployment and hosting
+## ⚙️Deployment and hosting
 
 [![Deploy to
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/navigator-hugo)
 
 Follow the steps.
 
-## Prefer a video? (Hugo + Netlify + Forestry)
+## 🎥Prefer a video? (Hugo + Netlify + Forestry)
 
 Build your website with **Navigator Hugo** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
-## Reporting Issues
+## 🐞Reporting Issues
 
 We use GitHub Issues as the official bug tracker for the navigator Template. Please Search [existing
 issues](https://github.com/gethugothemes/navigator-hugo/issues). Someone may have already reported the same problem.
@@ -91,7 +101,7 @@ If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/gethugothemes/navigator-hugo/issues).
 
 
-## Submit Your Website To Our Showcase
+## 📱Submit Your Website To Our Showcase
 
 Are you using Navigator Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
 
@@ -100,7 +110,7 @@ Our showcase aims to demonstrate to the world what amazing websites people like 
 [Submit](https://gethugothemes.com/showcase?submit=show) your Navigator Hugo powered website.
 
 <!-- licence -->
-## License
+## 📄License
 
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
@@ -111,7 +121,7 @@ Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed 
 share those images.
 
 <!-- resources -->
-## Special Thanks
+## 🙏Special Thanks
 
 - [Bootstrap](https://getbootstrap.com)
 - [Jquery](https://jquery.com)
@@ -123,7 +133,7 @@ share those images.
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/gethugothemes/navigator-hugo/graphs/contributors)
 
-## Hire Us
+## 👨‍💻Hire Us
 
 Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
 
