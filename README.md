@@ -60,11 +60,11 @@
 # clone the repository
 git clone git@github.com:gethugothemes/navigator-hugo.git
 
-# cd in the project directory
-$ cd navigator-hugo/exampleSite/
+# setup project
+$ npm run project-setup
 
 # Start local dev server
-$ hugo server --themesDir ../..
+$ npm run dev
 ```
 
 Or Check out [Full Documentation](https://docs.gethugothemes.com/navigator/?ref=github).

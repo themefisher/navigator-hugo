@@ -1811,3 +1811,6 @@ a:focus, a:hover {
 .page-404 h1 {
   font-size: 200px;
 }
+.blog-single img{
+  height: fit-content;;
+}

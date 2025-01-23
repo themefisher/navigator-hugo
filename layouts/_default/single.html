@@ -14,7 +14,7 @@
                         </li>
                         <li class="list-inline-item">
                             <span>at</span>
-                            <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                            <span>{{ .Date | time.Format "January 2, 2006" }}</span>
                         </li>
                     </ul>
                 </div>

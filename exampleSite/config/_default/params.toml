@@ -1,0 +1,18 @@
+logo = "images/logo.png"
+home = "Home"
+menufixed = true
+# contact form action
+contact_form_action = "sendmail.php" # contact form works with [https://airform.io/] or [https://formspree.io]
+
+footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
+footerServiceTitle = "Service"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+# Subscription
+[subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"

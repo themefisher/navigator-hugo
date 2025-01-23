@@ -1,0 +1,53 @@
+# Navbar Menus
+[[nav]]
+name = "about"
+url = "about/"
+weight = 2
+[[nav]]
+name = "service"
+url = "service/"
+weight = 3
+[[nav]]
+name = "portfolio"
+url = "portfolio/"
+weight = 4
+[[nav]]
+name = "blog"
+url = "blog/"
+weight = 5
+[[nav]]
+name = "contact"
+url = "contact/"
+weight = 6
+
+# Footer Service Menu
+[[service]]
+name = "graphicdesign"
+url = "service/"
+weight = 1
+[[service]]
+name = "webdesign"
+url = "service/"
+weight = 2
+[[service]]
+name = "webdevelopment"
+url = "service/"
+weight = 3
+
+# Footer Quick links Menu
+[[quicklink]]
+name = "partners"
+url = "about/"
+weight = 1
+[[quicklink]]
+name = "about"
+url = "about/"
+weight = 2
+[[quicklink]]
+name = "faqs"
+url = "about/"
+weight = 3
+[[quicklink]]
+name = "badges"
+url = "about/"
+weight = 4

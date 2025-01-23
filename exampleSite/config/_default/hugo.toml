@@ -1,0 +1,17 @@
+baseURL = "https://demo.gethugothemes.com/navigator/examplesite/"
+languageCode = "en-us"
+title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "navigator-hugo"
+summaryLength = 10
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "" # your analitics ID
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"

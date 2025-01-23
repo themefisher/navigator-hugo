@@ -29,12 +29,18 @@
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>{{ .Site.Params.footerSubscribeTitle }}</h3>
-                    <form class="subscribe-form">
+                    {{ with site.Params.subscription }}
+                    {{ if .enable }}
+                    <form class="subscribe-form"
+                    action="{{ .mailchimp_form_action }}"
+                    name="{{ .mailchimp_form_name }}">
                         <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
                         <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
                     </form>
+                    {{ end }}
+                    {{ end }}
                 </div>
             </div>
         </div>
