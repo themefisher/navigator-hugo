@@ -6,8 +6,8 @@
 
 
 <p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.62.0&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.147.2" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.147.2&color=f00&logo=hugo" />
   </a>
 
   <a href="https://github.com/gethugothemes/navigator-hugo/blob/master/LICENSE">
