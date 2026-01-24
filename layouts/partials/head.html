@@ -30,5 +30,10 @@
 
 {{ $styles := resources.Get "css/style.css" | minify}}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-
+<!-- google analytics -->
+{{ if hasPrefix .Site.GoogleAnalytics "G-" -}}
+  {{ template "_internal/google_analytics.html" . -}}
+{{ else -}}
+  {{ template "_internal/google_analytics_async.html" . -}}
+{{ end -}}
 </head>
